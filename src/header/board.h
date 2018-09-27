@@ -16,6 +16,7 @@ class Board{
 		char wall;
 		char ghost;
 		char pacman;
+		char coin;
 
 	public:
 		Board();
@@ -23,6 +24,7 @@ class Board{
 		char getWall();
 		char getGhost();
 		char getPacman();
+		char getCoin();
 
 };
 

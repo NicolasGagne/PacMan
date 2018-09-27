@@ -16,6 +16,7 @@ Board::Board(){
 	wall = "#";
 	ghost = "K";
 	pacman = "O";
+	coin = "•";
 }
 
 
@@ -33,4 +34,8 @@ char Board::getWall(){
 
 char Board::getPacman(){
 	return pacman;
+}
+
+char Board::getCoin(){
+	return coin;
 }
