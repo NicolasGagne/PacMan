@@ -14,5 +14,6 @@ int main() {
 	cout << "!!!PACMAN!!!" << endl; // prints !!!PACMAN!!!
 	Board MyBoard;
 	cout << MyBoard.getWidth();
+	MyBoard.drawBoard();
 	return 0;
 }

@@ -8,23 +8,20 @@
 #ifndef HEADER_BOARD_H_
 #define HEADER_BOARD_H_
 
+#include "position.h"
 
 class Board{
 	private:
 		int width;
 		int height;
-		char wall;
-		char ghost;
-		char pacman;
-		char coin;
+		Position full_Board[20][10];
+
 
 	public:
 		Board();
+		void drawBoard();
 		int getWidth();
-		char getWall();
-		char getGhost();
-		char getPacman();
-		char getCoin();
+
 
 };
 
